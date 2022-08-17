@@ -14,11 +14,10 @@
 .inner {
     height: 100%;
     width: var(--default-layout-width);
+    padding: 0 var(--default-layout-horizontal-spacer);
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-left: 20px;
-    padding-right: 24px;
 }
 
 .search,
@@ -103,4 +102,5 @@
     margin-left: 28px;
     padding: 8px;
     background-color: transparent;
+    cursor: pointer;
 }

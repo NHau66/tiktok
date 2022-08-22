@@ -14,8 +14,7 @@ import { Link } from 'react-router-dom';
 import Tippy from '@tippyjs/react';
 import 'tippy.js/dist/tippy.css';
 
-
-import routesConfig from '~/config/routes'
+import routesConfig from '~/config/routes';
 import styles from './Header.module.scss';
 import images from '~/assets/images';
 
@@ -24,7 +23,6 @@ import Menu from '~/components/Popper/Menu';
 import { InboxIcon, MessageIcon, UploadIcon } from '~/components/Icons';
 import Image from '~/components/Image';
 import Search from '../Search';
-
 
 const cx = classNames.bind(styles);
 

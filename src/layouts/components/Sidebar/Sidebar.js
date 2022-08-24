@@ -9,7 +9,7 @@ import {
     LiveIcon,
     LiveActiveIcon,
 } from '~/components/Icons';
-import SuggestedAccounts from '~/components/Popper/SuggestedAccounts';
+import SuggestedAccounts from '~/components/SuggestedAccounts';
 import config from '~/config';
 
 const cx = classNames.bind(styles);
